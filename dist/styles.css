@@ -1,0 +1,136 @@
+/********************* BG AND MAIN STYLES START *********************/
+
+.bg {
+	position: 	fixed; 
+	top: 		-50%; 
+	left: 		-50%; 
+	width: 		200%; 
+	height: 	200%;
+}
+.bg img {
+	position: 	absolute; 
+	top: 		0; 
+	left: 		0; 
+	right: 		0; 
+	bottom: 	0; 
+	margin: 	auto; 
+	min-width: 	50%;
+	min-height: 50%;
+}
+
+.darken {
+	background-color: 	black;
+	height: 			100%;
+	width: 				100%;
+	z-index: 			2;
+	position: 			absolute;
+	opacity: 			0.18;
+}
+
+main {
+	position: 	fixed;
+	z-index: 	10;
+	height: 	100%;
+	width: 		100%;
+	color: 		#5a5352;
+/*	color: 		#A49795;*/
+}
+
+header {
+	padding: 		12px;
+	border-bottom: 	1px solid #FEFEFE;
+	margin-bottom: 	12px;
+}
+
+.content {
+	overflow: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.content { max-height: calc(100% - 180px); }
+}
+
+@media only screen and (min-width: 768px) {
+	.content { max-height: calc(100% - 200px); }
+}
+
+footer {
+	position: 			fixed;
+	display: 			flex;
+	bottom: 			0px;
+	z-index: 			10;
+	height: 			100px;
+	width: 				100%;
+	color: 				#5A5352;
+	border-top: 		1px solid #FEFEFE;
+	justify-content: 	center;
+}
+
+/********************* BG AND MAIN STYLES END *********************/
+
+/********************* OVERALL STYLES START *********************/
+.card {
+	background-color: rgba(239, 239, 239, .5);
+}
+
+.textEnd {
+	text-align: end;
+}
+
+.hideThis {
+	opacity: 0;
+}
+
+.divider {
+	border-top: 1px solid #FEFEFE;
+}
+
+.link {
+	color: 				#BFD9FF;
+	text-decoration: 	none;
+}
+
+/********************* OVERALL STYLES END *********************/
+
+/********************* SPECIFIC STYLES START *********************/
+
+.navRow {
+	display: 	inline-flex;
+	width: 		100%;
+}
+
+.profileImg {
+	max-width: 		48px;
+	margin-right: 	8px;
+}
+
+.subTitle {
+	margin-top: 	8px;
+}
+
+.title {
+	margin-bottom: 	24px;
+	text-align: 	center;
+}
+
+.service {
+	margin-bottom: 	12px;
+}
+
+.location {
+	margin-top: 		12px;
+	background-color: 	rgba(1, 1, 1, .25);
+	color: 				#FFF9F8;
+}
+
+.contactContainer {
+	padding: 	8px 0px 8px 12px;
+	margin-top: 8px;
+}
+
+.iconContainer {
+	width: 	fit-content;
+	height: fit-content;
+}
+
+/********************* SPECIFIC STYLES END *********************/
